@@ -1,0 +1,6 @@
+export const INVOICE_TYPE = {
+	CONTRIBUTION: 0,
+	CASH: 1,
+	DEBIT_CARD: 2,
+	CREDIT_CARD: 3,
+};
