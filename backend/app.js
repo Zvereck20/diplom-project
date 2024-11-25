@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const cookieParser = require("cookie-parser");
 const routes = require("./routes");
 
-const port = 5000;
+const port = 3001;
 const app = express();
 
 app.use(express.static(path.resolve("..", "frontend", "build")));
