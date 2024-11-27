@@ -38,7 +38,9 @@ export const Main = () => {
 			<div className="flex gap-7 ">
 				<div className="w-full p-5 flex flex-col border border-black">
 					<div className="flex items-center justify-between border-b border-black pb-3">
-						<h3>Доходы </h3>
+						<h3>
+							<Link to="/category">Доходы</Link>
+						</h3>
 						<Link to="/category/add">+</Link>
 					</div>
 
@@ -62,7 +64,9 @@ export const Main = () => {
 				</div>
 				<div className="w-full p-5 flex flex-col border border-black">
 					<div className="flex items-center justify-between border-b border-black pb-3">
-						<h3>Счета</h3>
+						<h3>
+							<Link to="/invoice">Счета</Link>
+						</h3>
 						<Link to="/invoice/add">+</Link>
 					</div>
 
@@ -86,7 +90,9 @@ export const Main = () => {
 				</div>
 				<div className="w-full p-5 flex flex-col border border-black">
 					<div className="flex items-center justify-between border-b border-black pb-3">
-						<h3>Расходы </h3>
+						<h3>
+							<Link to="/category">Расходы</Link>
+						</h3>
 						<Link to="/category/add">+</Link>
 					</div>
 
